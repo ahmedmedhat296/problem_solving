@@ -36,5 +36,27 @@ This file implements an efficient solution to the maximum subarray problem using
 ### 8. Matrix Operations Class (`matrix_operations_class.cpp`)
 
 This program defines a C++ class (`Array2d`) to represent and manipulate 2D matrices. It includes methods for getting/setting elements, resizing the matrix, retrieving rows, finding the row with the maximum sum, and overloading the addition operator (`+`) for matrix addition.
+### 9. Manacher's Algorithm  
 
+This is an implementation of **Manacher's Algorithm** for finding the **longest palindromic substring** in **linear time (O(n))** using C++.  
 
+The algorithm is actually simple:  
+We iterate over the string, and at each character we check for symmetry around this element.  
+But if we do so naively, this will take more than **O(n)**.  
+
+The trick is that we **keep track of all the palindromes we have already calculated** to efficiently calculate the upcoming ones.  
+
+---
+
+### How it works:
+- We make an array of the same length as the string.  
+  Each element of the array represents the **palindrome size centered at this element**.  
+- We keep track of the **center** and the **rightmost character** of the last palindrome we have seen.  
+- If the current character is inside the current palindrome:
+  - We check its **mirror index** within the palindrome.  
+  - We can **reuse its palindrome length** and determine (and here is the magic) **where to start checking for symmetry**.  
+
+---
+
+### For efficiency:
+- Keep track of the **biggest palindrome** and its **center**.  
