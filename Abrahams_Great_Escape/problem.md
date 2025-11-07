@@ -1,16 +1,25 @@
 # Abraham's Great Escape
 
 ## Problem Statement
-<!-- Copy the problem statement from Codeforces here -->
+<!-- Problem statement will be added from Codeforces -->
+
+## Problem Link
+[Abraham's Great Escape](https://codeforces.com/problemset/problem/2155/B)
+
+## Problem Details
+- **Contest ID**: 2155
+- **Problem Index**: B
+- **Rating**: 1100
+- **Tags**: constructive algorithms, graphs
 
 ## Input Format
-<!-- Describe input format -->
+<!-- Input format will be added from Codeforces -->
 
 ## Output Format
-<!-- Describe output format -->
+<!-- Output format will be added from Codeforces -->
 
 ## Constraints
-<!-- List constraints -->
+<!-- Constraints will be added from Codeforces -->
 
 ## Examples
 
@@ -36,5 +45,5 @@
 <!-- Output here -->
 ```
 
-## Link
-[Codeforces Problem Link](https://codeforces.com/problemset/problem/XXXX/XXXX)
+## Note
+Please visit the [problem page](https://codeforces.com/problemset/problem/2155/B) on Codeforces to see the complete problem statement, input/output format, constraints, and examples.
