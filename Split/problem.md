@@ -1,49 +1,33 @@
 # Split
 
-## Problem Statement
-<!-- Problem statement will be added from Codeforces -->
+## 📋 Problem Information
 
-## Problem Link
-[Split](https://codeforces.com/problemset/problem/2148/E)
-
-## Problem Details
-- **Contest ID**: 2148
+- **Problem Link**: [Split](https://codeforces.com/problemset/problem/2148/E)
+- **Contest**: 2148
 - **Problem Index**: E
-- **Rating**: 1200
-- **Tags**: binary search, data structures, two pointers
+- **Difficulty**: 1500
+- **Tags**: greedy, math
 
-## Input Format
-<!-- Input format will be added from Codeforces -->
+---
 
-## Output Format
-<!-- Output format will be added from Codeforces -->
+## 📖 Problem Statement
 
-## Constraints
-<!-- Constraints will be added from Codeforces -->
+Visit the [problem page on Codeforces](https://codeforces.com/problemset/problem/2148/E) to read the complete problem statement, including:
+- Detailed problem description
+- Input/output format
+- Constraints
+- Sample test cases
 
-## Examples
+---
 
-### Example 1
-**Input:**
-```
-<!-- Input here -->
-```
+## 💡 Quick Summary
 
-**Output:**
-```
-<!-- Output here -->
-```
+This is a Codeforces problem from contest 2148, problem E. The problem has a difficulty rating of 1500 and involves the following topics: greedy, math.
 
-### Example 2
-**Input:**
-```
-<!-- Input here -->
-```
+For the complete problem statement, examples, and constraints, please visit the [official problem page](https://codeforces.com/problemset/problem/2148/E).
 
-**Output:**
-```
-<!-- Output here -->
-```
+---
 
-## Note
-Please visit the [problem page](https://codeforces.com/problemset/problem/2148/E) on Codeforces to see the complete problem statement, input/output format, constraints, and examples.
+## 🔗 Direct Link
+
+**[View Problem on Codeforces →](https://codeforces.com/problemset/problem/2148/E)**

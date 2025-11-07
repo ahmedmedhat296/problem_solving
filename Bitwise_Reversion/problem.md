@@ -1,49 +1,33 @@
 # Bitwise Reversion
 
-## Problem Statement
-<!-- Problem statement will be added from Codeforces -->
+## 📋 Problem Information
 
-## Problem Link
-[Bitwise Reversion](https://codeforces.com/problemset/problem/2153/B)
-
-## Problem Details
-- **Contest ID**: 2153
+- **Problem Link**: [Bitwise Reversion](https://codeforces.com/problemset/problem/2153/B)
+- **Contest**: 2153
 - **Problem Index**: B
-- **Rating**: 800
+- **Difficulty**: 1100
 - **Tags**: bitmasks, greedy
 
-## Input Format
-<!-- Input format will be added from Codeforces -->
+---
 
-## Output Format
-<!-- Output format will be added from Codeforces -->
+## 📖 Problem Statement
 
-## Constraints
-<!-- Constraints will be added from Codeforces -->
+Visit the [problem page on Codeforces](https://codeforces.com/problemset/problem/2153/B) to read the complete problem statement, including:
+- Detailed problem description
+- Input/output format
+- Constraints
+- Sample test cases
 
-## Examples
+---
 
-### Example 1
-**Input:**
-```
-<!-- Input here -->
-```
+## 💡 Quick Summary
 
-**Output:**
-```
-<!-- Output here -->
-```
+This is a Codeforces problem from contest 2153, problem B. The problem has a difficulty rating of 1100 and involves the following topics: bitmasks, greedy.
 
-### Example 2
-**Input:**
-```
-<!-- Input here -->
-```
+For the complete problem statement, examples, and constraints, please visit the [official problem page](https://codeforces.com/problemset/problem/2153/B).
 
-**Output:**
-```
-<!-- Output here -->
-```
+---
 
-## Note
-Please visit the [problem page](https://codeforces.com/problemset/problem/2153/B) on Codeforces to see the complete problem statement, input/output format, constraints, and examples.
+## 🔗 Direct Link
+
+**[View Problem on Codeforces →](https://codeforces.com/problemset/problem/2153/B)**

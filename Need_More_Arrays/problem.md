@@ -1,49 +1,33 @@
 # Need More Arrays
 
-## Problem Statement
-<!-- Problem statement will be added from Codeforces -->
+## 📋 Problem Information
 
-## Problem Link
-[Need More Arrays](https://codeforces.com/problemset/problem/2114/C)
-
-## Problem Details
-- **Contest ID**: 2114
+- **Problem Link**: [Need More Arrays](https://codeforces.com/problemset/problem/2114/C)
+- **Contest**: 2114
 - **Problem Index**: C
-- **Rating**: 1000
-- **Tags**: dp, greedy
+- **Difficulty**: 1200
+- **Tags**: data structures, implementation
 
-## Input Format
-<!-- Input format will be added from Codeforces -->
+---
 
-## Output Format
-<!-- Output format will be added from Codeforces -->
+## 📖 Problem Statement
 
-## Constraints
-<!-- Constraints will be added from Codeforces -->
+Visit the [problem page on Codeforces](https://codeforces.com/problemset/problem/2114/C) to read the complete problem statement, including:
+- Detailed problem description
+- Input/output format
+- Constraints
+- Sample test cases
 
-## Examples
+---
 
-### Example 1
-**Input:**
-```
-<!-- Input here -->
-```
+## 💡 Quick Summary
 
-**Output:**
-```
-<!-- Output here -->
-```
+This is a Codeforces problem from contest 2114, problem C. The problem has a difficulty rating of 1200 and involves the following topics: data structures, implementation.
 
-### Example 2
-**Input:**
-```
-<!-- Input here -->
-```
+For the complete problem statement, examples, and constraints, please visit the [official problem page](https://codeforces.com/problemset/problem/2114/C).
 
-**Output:**
-```
-<!-- Output here -->
-```
+---
 
-## Note
-Please visit the [problem page](https://codeforces.com/problemset/problem/2114/C) on Codeforces to see the complete problem statement, input/output format, constraints, and examples.
+## 🔗 Direct Link
+
+**[View Problem on Codeforces →](https://codeforces.com/problemset/problem/2114/C)**
