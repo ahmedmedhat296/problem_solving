@@ -1,62 +1,87 @@
-# C++ Problem Solving Exercises
+# C++ Problem Solving Repository
 
-This repository contains a selection of C++ solutions for various programming problems, showcasing different algorithms and data structures.
+This repository contains a collection of C++ solutions for various programming problems, showcasing different algorithms, data structures, and problem-solving techniques. Each problem is organized in its own subfolder with detailed documentation including solution explanations, algorithm analysis, and problem descriptions.
 
-## Problems
+## 📁 Repository Structure
 
-Here are the problems included in this collection:
+Each problem in this repository is organized in its own subfolder containing:
+- **Solution file** (`.cpp`) - The complete C++ implementation
+- **README.md** - Detailed solution explanation with algorithm analysis, key insights, implementation details, and complexity analysis
+- **problem.md** - Problem description, input/output format, constraints, and examples
 
-### 1. reachable coordinates (`coordiantes reachable.cpp`)
+## 🎯 Problems Included
 
-This program simulates movement on a grid based on a given sequence of directions (North, South, East, West). It determines if a target coordinate (a, b) is reached within a certain number of steps, following a repeating route pattern. This problem involves basic coordinate tracking and loop control.
+### 1. [Reachable Coordinates](./reachable_coordinates/)
+Simulates movement on a grid based on a given sequence of directions (North, South, East, West). Determines if a target coordinate (a, b) is reached within a certain number of steps, following a repeating route pattern. This problem involves basic coordinate tracking and loop control.
 
-### 2. Splitting Items Greedy (`splitting_items_greedy.cpp`)
+### 2. [Splitting Items Greedy](./splitting_items_greedy/)
+Implements a solution for resource allocation or item distribution problem. Involves sorting items and distributing them between two parties (Alice and Bob) following a specific logic, using a greedy approach with a modification factor `k`. Calculates the difference in the total value of items received by each party.
 
-This program implements a solution likely related to a resource allocation or item distribution problem. Based on the code structure, it seems to involve sorting items and distributing them between two parties (Alice and Bob) following a specific logic, potentially involving a greedy approach and a modification factor `k`. The goal appears to be calculating the difference in the total value of items received by each party.
+### 3. [Array Stack Implementation](./array_stack_implementation/)
+A basic implementation of a stack data structure using a fixed-size array. Includes standard stack operations like `push`, `pop`, `top`, `size`, and `empty`. This serves as a fundamental example of implementing a common data structure in C++.
 
-### 3. Array Stack Implementation (`array_stack_implementation.cpp`)
+### 4. [Merge Sort](./merge_sort/)
+Implementation of the classic Merge Sort algorithm, a highly efficient, comparison-based sorting algorithm. Follows the divide-and-conquer paradigm, recursively dividing the array into halves, sorting them, and then merging the sorted halves.
 
-This file provides a basic implementation of a stack data structure using a fixed-size array. It includes standard stack operations like `push`, `pop`, `top`, `size`, and `empty`. This serves as a fundamental example of implementing a common data structure in C++.
-### 4. Merge Sort (`merge_sort.cpp`)
+### 5. [HTML Tag Matcher](./html_tag_matcher/)
+Demonstrates how to use a stack to validate the proper nesting and matching of tags in an HTML or XML document. Parses a string containing tags, pushes opening tags onto a stack, and pops them when the corresponding closing tag is encountered, ensuring correctness.
 
-This file implements the classic Merge Sort algorithm, a highly efficient, comparison-based sorting algorithm. It follows the divide-and-conquer paradigm, recursively dividing the array into halves, sorting them, and then merging the sorted halves.
+### 6. [Array-Based Binary Search Tree](./array_based_bst/)
+Implementation of a Binary Search Tree (BST) using an array representation instead of pointers. Defines methods for adding elements (`Add`) and provides iterators (`POS`) to traverse the tree, finding the beginning and end elements in an inorder traversal.
 
-### 5. HTML Tag Matcher (`html_tag_matcher.cpp`)
+### 7. [Maximum Subarray (Divide and Conquer)](./maximum_subarray_divide_conquer/)
+Efficient solution to the maximum subarray problem using the divide-and-conquer approach. Finds the contiguous subarray within a one-dimensional array of numbers that has the largest sum. Includes functionality to time the execution.
 
-This program demonstrates how to use a stack to validate the proper nesting and matching of tags in an HTML or XML document. It parses a string containing tags, pushes opening tags onto a stack, and pops them when the corresponding closing tag is encountered, ensuring correctness.
+### 8. [Matrix Operations Class](./matrix_operations_class/)
+Defines a C++ class (`Array2d`) to represent and manipulate 2D matrices. Includes methods for getting/setting elements, resizing the matrix, retrieving rows, finding the row with the maximum sum, and overloading the addition operator (`+`) for matrix addition.
 
-### 6. Array-Based Binary Search Tree (`array_based_bst.cpp`)
+### 9. [Manacher's Algorithm](./manacher_algorithm/)
+Implementation of **Manacher's Algorithm** for finding the **longest palindromic substring** in **linear time (O(n))** using C++.
 
-This solution provides an implementation of a Binary Search Tree (BST) using an array representation instead of pointers. It defines methods for adding elements (`Add`) and provides iterators (`POS`) to traverse the tree (specifically finding the beginning and end elements in an inorder traversal sense, though the implementation details might vary).
+The algorithm uses symmetry properties to efficiently calculate palindromes by keeping track of previously calculated palindromes and reusing that information.
 
-### 7. Maximum Subarray (Divide and Conquer) (`maximum_subarray_divide_conquer.cpp`)
+#### How it works:
+- Creates an array of the same length as the string, where each element represents the palindrome size centered at that position
+- Tracks the center and rightmost character of the last palindrome seen
+- For characters inside the current palindrome, checks the mirror index and reuses palindrome length information
+- Keeps track of the biggest palindrome and its center
 
-This file implements an efficient solution to the maximum subarray problem using the divide-and-conquer approach. It finds the contiguous subarray within a one-dimensional array of numbers that has the largest sum. The code also includes functionality to time the execution.
+## 🚀 Getting Started
 
-### 8. Matrix Operations Class (`matrix_operations_class.cpp`)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ahmedmedhat296/problem_solving.git
+   ```
 
-This program defines a C++ class (`Array2d`) to represent and manipulate 2D matrices. It includes methods for getting/setting elements, resizing the matrix, retrieving rows, finding the row with the maximum sum, and overloading the addition operator (`+`) for matrix addition.
-### 9. Manacher's Algorithm  
+2. **Navigate to a problem folder:**
+   ```bash
+   cd problem_solving/merge_sort
+   ```
 
-This is an implementation of **Manacher's Algorithm** for finding the **longest palindromic substring** in **linear time (O(n))** using C++.  
+3. **Read the documentation:**
+   - Check `README.md` for solution explanation
+   - Check `problem.md` for problem description
 
-The algorithm is actually simple:  
-We iterate over the string, and at each character we check for symmetry around this element.  
-But if we do so naively, this will take more than **O(n)**.  
+4. **Compile and run:**
+   ```bash
+   g++ -o solution *.cpp
+   ./solution
+   ```
 
-The trick is that we **keep track of all the palindromes we have already calculated** to efficiently calculate the upcoming ones.  
+## 📚 Topics Covered
 
----
+- **Data Structures**: Stack, Binary Search Tree, Arrays
+- **Algorithms**: Sorting (Merge Sort), String Algorithms (Manacher's Algorithm)
+- **Problem-Solving Techniques**: Divide and Conquer, Greedy Algorithms
+- **C++ Features**: Classes, Operator Overloading, Templates
 
-### How it works:
-- We make an array of the same length as the string.  
-  Each element of the array represents the **palindrome size centered at this element**.  
-- We keep track of the **center** and the **rightmost character** of the last palindrome we have seen.  
-- If the current character is inside the current palindrome:
-  - We check its **mirror index** within the palindrome.  
-  - We can **reuse its palindrome length** and determine (and here is the magic) **where to start checking for symmetry**.  
+## 📝 Notes
 
----
+- All solutions are written in C++
+- Each solution includes detailed documentation
+- Time and space complexity analysis is provided for each problem
+- Solutions are organized for easy navigation and learning
 
-### For efficiency:
-- Keep track of the **biggest palindrome** and its **center**.  
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
